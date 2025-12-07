@@ -1,0 +1,34 @@
+body {
+  background: #000;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+#tree {
+  width: 400px;
+  height: 500px;
+  filter: drop-shadow(0 0 25px #00ff80);
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 180px;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 6px;
+}
